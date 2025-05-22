@@ -1,9 +1,7 @@
-import React from 'react'
+import { AuthScreen } from "@/components/auth/auth-screen"
 
 const page = () => {
-  return (
-    <div>page</div>
-  )
+  return <AuthScreen />
 }
 
 export default page
